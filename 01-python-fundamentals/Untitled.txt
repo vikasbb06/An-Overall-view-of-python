@@ -1,0 +1,6 @@
+that messy output happened because you are opening an RTF (Rich Text Format) file as if it were a plain text file.
+Even though your file has .txt in the middle of the name, the actual file extension is .rtf.
+Why you see those symbols:
+Rich Text files are not "plain." They contain hidden formatting code—things like font sizes, colors, and margins—written in a special syntax. When you use open() in Python:
+	•	It doesn't see "Hello World."
+	•	It sees the underlying code used to make "Hello World" look pretty in a word processor.

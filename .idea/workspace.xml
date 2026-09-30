@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eb96e904-497f-41fc-b48c-463ab0a20dc2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vikasbb06&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vikasbb06/A-Overall-view-of-the-python-.git&quot;,
+    &quot;accountId&quot;: &quot;ecdfa4e2-d974-4e24-a523-2e054af70e32&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.020474896935287" />
+      <entry key="MS500" value="1.459628077286311" />
+      <entry key="S2" value="2.0745444176936196" />
+      <entry key="S5" value="3.2005568301807727" />
+      <entry key="S10" value="4.206083301421781" />
+      <entry key="S30" value="5.303338105518067" />
+      <entry key="S60" value="6.325511255410438" />
+      <entry key="M2" value="11.872326346524456" />
+      <entry key="M5" value="33.808112963281125" />
+      <entry key="M10" value="60.251426233388734" />
+      <entry key="M15" value="77.95083734252695" />
+      <entry key="M30" value="122.67057984813397" />
+      <entry key="H1" value="237.0752616290974" />
+      <entry key="H2" value="494.60607049770147" />
+      <entry key="H4" value="915.0973034362339" />
+      <entry key="D1" value="1903.455658687201" />
+      <entry key="W1" value="2211.386818187555" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="5.717659707816028E-8" />
+      <entry key="MS500" value="0.03559948053819109" />
+      <entry key="S2" value="0.4343710925753117" />
+      <entry key="S5" value="0.7163815067381586" />
+      <entry key="S10" value="0.846393234117178" />
+      <entry key="S30" value="0.9462051245460343" />
+      <entry key="S60" value="0.9946708672652226" />
+      <entry key="M2" value="1.194438278033176" />
+      <entry key="M5" value="1.9074744455420347" />
+      <entry key="M10" value="2.7345833941751456" />
+      <entry key="M15" value="3.382125427944325" />
+      <entry key="M30" value="6.224324522338821" />
+      <entry key="H1" value="15.596249907821402" />
+      <entry key="H2" value="41.73679654148083" />
+      <entry key="H4" value="98.28336762875047" />
+      <entry key="D1" value="265.60005098927456" />
+      <entry key="W1" value="323.05872445125317" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9462288959116946" />
+      <entry key="MS500" value="1.4491875900091282" />
+      <entry key="S2" value="2.3717202643550723" />
+      <entry key="S5" value="3.8172174217710224" />
+      <entry key="S10" value="4.991239590744855" />
+      <entry key="S30" value="6.226054999294355" />
+      <entry key="S60" value="7.3072018276247865" />
+      <entry key="M2" value="13.056587139912152" />
+      <entry key="M5" value="35.70580327408829" />
+      <entry key="M10" value="62.977648534832426" />
+      <entry key="M15" value="81.32522944404344" />
+      <entry key="M30" value="128.8843010512922" />
+      <entry key="H1" value="252.6542914062265" />
+      <entry key="H2" value="536.3206981551727" />
+      <entry key="H4" value="1013.3576299796084" />
+      <entry key="D1" value="2169.046565102511" />
+      <entry key="W1" value="2534.4439837511504" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IXn8YRARkD7msCcBgXJtIBxNZB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.decorators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorators2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.processing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threading2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Jupyter Variables.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vikasbbhat/Desktop/advanced python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-python-advanced" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.processing">
+    <configuration name="processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advanced python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-python-advanced" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-python-advanced/processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="threading2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="advanced python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-python-advanced" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-python-advanced/threading2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.processing" />
+        <item itemvalue="Python.threading2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb96e904-497f-41fc-b48c-463ab0a20dc2" name="Changes" comment="" />
+      <created>1787919621911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787919621911</updated>
+      <workItem from="1787919623159" duration="1093000" />
+      <workItem from="1788180070145" duration="4213000" />
+      <workItem from="1788184956247" duration="1450000" />
+      <workItem from="1788258980396" duration="7033000" />
+      <workItem from="1788356344201" duration="6031000" />
+      <workItem from="1788443005565" duration="2330000" />
+      <workItem from="1788519853602" duration="7827000" />
+      <workItem from="1788612754186" duration="6266000" />
+      <workItem from="1789055379804" duration="155000" />
+      <workItem from="1789130811829" duration="16000" />
+      <workItem from="1789478552676" duration="294000" />
+      <workItem from="1789565573622" duration="3216000" />
+      <workItem from="1789651204794" duration="3975000" />
+      <workItem from="1790173684692" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/advanced_python$decorators.coverage" NAME="decorators Coverage Results" MODIFIED="1788181518935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/advanced_python$threading2.coverage" NAME="threading2 Coverage Results" MODIFIED="1789478643593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-python-advanced" />
+    <SUITE FILE_PATH="coverage/advanced_python$decorators2.coverage" NAME="decorators2 Coverage Results" MODIFIED="1787920255382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/advanced_python$processing.coverage" NAME="processing Coverage Results" MODIFIED="1789478705178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-python-advanced" />
+  </component>
+</project>
