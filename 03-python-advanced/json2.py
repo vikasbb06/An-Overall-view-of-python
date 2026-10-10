@@ -76,22 +76,3 @@ print(playerJSON)
 player_decoded = json.loads(playerJSON, object_hook=decode_dct)
 print(type(player_decoded))
 {
-    "__class__": "User",
-    "__module__": "__main__",
-    "active": true,
-    "age": 28,
-    "balance": 20.7,
-    "friends": [
-        "Jane",
-        "Tom"
-    ],
-    "name": "John"
-}
-<class '__main__.User'>
-{
-    "__class__": "Player",
-    "__module__": "__main__",
-    "level": 5,
-    "name": "Max",
-    "nickname": "max1234"
-}

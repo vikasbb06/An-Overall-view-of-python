@@ -2,4 +2,5 @@
 .idea/
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
+.ipynb_checkpoints/06-Pandas/results.csv
+06-Pandas/results.csv
