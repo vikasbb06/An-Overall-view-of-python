@@ -1,0 +1,10 @@
+<!--here we inherits the layout html as that is the parent block and others are child blocks -->
+{% extends "layout.html" %}
+    {% block content %}
+<!--    <h1>Home Page</h1>-->
+        {% for post in posts %}
+        <h2>{{post.title}}</h2>
+        <p>By:{{post.author}} posted on {{post.date_posted}}</p>
+        <p>{{post.content}}</p>
+        {%endfor%}
+    {% endblock content %}
