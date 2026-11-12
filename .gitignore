@@ -5,3 +5,4 @@ __pycache__/
 .ipynb_checkpoints/06-Pandas/results.csv
 06-Pandas/results.csv
 .idea/
+.DS_Store
