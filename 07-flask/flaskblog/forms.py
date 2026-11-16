@@ -16,6 +16,6 @@ class RegisterForm(FlaskForm):
 class LoginForm(FlaskForm):
     #we can either use email or username for logging in
     email = StringField('Email',validators=[DataRequired(),Email()])
-    password=PasswordField('Password',validators=[DataRequired()])
+    password=PasswordField('Password',validators=[DataRequired(),EqualTo('password')])
     remember_me=BooleanField('Remember Me') #this will keep user logged in for some time when browser is closed
     submit=SubmitField('Login')

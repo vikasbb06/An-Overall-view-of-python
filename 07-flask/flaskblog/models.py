@@ -1,0 +1,24 @@
+from datetime import datetime
+from flaskblog import db # to avoid this we should use the main function import technique
+
+class User(db.Model):
+    #  now we can add columns to the table
+    id=db.Column(db.Integer,primary_key=True)
+    username=db.Column(db.String(20),unique=True,nullable=False)
+    email=db.Column(db.String(120),unique=True,nullable=False)
+    image_file=db.Column(db.String(20),nullable=False,default='default.jpg')
+    password=db.Column(db.String(60),nullable=False)
+    posts=db.relationship('Post',backref='author',lazy=True) #as one author have mny blogs but vice-vers is not true
+                                                                #backref similar to adding column in another classes
+    def __repr__(self): # the dunder function is used for the reprsentation
+        return f'User {self.username},{self.email},{self.image_file}'
+
+class Post(db.Model): # for holding our post
+    id = db.Column(db.Integer, primary_key=True)
+    title=db.Column(db.String(100),nullable=False)
+    date_posted = db.Column(db.DateTime, nullable=False, default=lambda: datetime.datetime.now(datetime.timezone.utc))
+    content=db.Column(db.Text,nullable=False)
+    #once relationship is created b/w classes then we have to use foreign key
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+
+    def __repr__(self): return f'Post {self.title},{self.date_posted}'
