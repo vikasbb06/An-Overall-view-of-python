@@ -1,8 +1,9 @@
 from flaskblog.models import User,Post # if we import above 'db' this will give error as deadlock situation appears
-from flask import render_template,url_for,flash,redirect
+from flask import render_template,url_for,flash,redirect,request
 import datetime
 from flaskblog.forms import RegisterForm,LoginForm
-from flaskblog import app
+from flaskblog import app,bcrypt,db
+from flask_login import login_user, current_user, logout_user,login_required
 
 posts=[
     {
@@ -25,7 +26,7 @@ def home():
 
 # app.route("/")
 # def home():
-#     return "<h1>Home Page</h1>"
+#       return "<h1>Home Page</h1>"
 
 #we can add more web-page by adding just about decorator
 @app.route("/about")
@@ -34,19 +35,39 @@ def about():
 
 @app.route("/register",methods=['GET','POST'])
 def register():
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
     form=RegisterForm()
     if form.validate_on_submit():
-        flash(f'Account created for {form.username.data}!', 'success')
-        return redirect(url_for('home'))
+        hashed_password=bcrypt.generate_password_hash(form.password.data).decode('utf-8')
+        user=User(username=form.username.data,email=form.email.data,password=hashed_password)
+        db.session.add(user)
+        db.session.commit()
+        flash(f'Account created! and You are now able to log in ', 'success')
+        return redirect(url_for('login'))
     return render_template('register.html',title='Registration',form=form)
 
 @app.route("/login", methods=['GET', 'POST'])
 def login():
+    if current_user.is_authenticated:
+        return redirect(url_for('home'))
     form = LoginForm()
     if form.validate_on_submit():
-        if form.email.data == 'admin@blog.com' and form.password.data == 'password':
-            flash('You have been logged in!', 'success')
-            return redirect(url_for('home'))
+        user=User.query.filter_by(email=form.email.data).first()
+        if user and bcrypt.check_password_hash(user.password,form.password.data):#this check the password in db and entered
+            login_user(user,remember=form.remember_me.data)
+            next_page = request.args.get('next')
+            return redirect(next_page) if next_page else redirect(url_for('home'))
         else:
             flash('Login Unsuccessful. Please check email and password', 'danger')
     return render_template('login.html', title='Login', form=form)
+
+@app.route("/logout")
+def logout():
+    logout_user()
+    return redirect(url_for('home'))
+
+@app.route("/account")
+@login_required
+def account():
+    return render_template("account.html",title="Account")
