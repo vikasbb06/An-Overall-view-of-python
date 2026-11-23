@@ -1,6 +1,7 @@
 from datetime import datetime
 from flaskblog import db,login_manager
 from flask_login import UserMixin
+from datetime import datetime, timezone
 
 # A decorator to load the user from the db
 @login_manager.user_loader
@@ -22,7 +23,7 @@ class User(db.Model,UserMixin):
 class Post(db.Model): # for holding our post
     id = db.Column(db.Integer, primary_key=True)
     title=db.Column(db.String(100),nullable=False)
-    date_posted = db.Column(db.DateTime, nullable=False, default=lambda: datetime.datetime.now(datetime.timezone.utc))
+    date_posted = db.Column(db.DateTime, nullable=False, default=lambda: datetime.now(timezone.utc))
     content=db.Column(db.Text,nullable=False)
     #once relationship is created b/w classes then we have to use foreign key
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
