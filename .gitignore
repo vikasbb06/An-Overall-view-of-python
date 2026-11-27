@@ -6,3 +6,4 @@ __pycache__/
 06-Pandas/results.csv
 .idea/
 .DS_Store
+.env
