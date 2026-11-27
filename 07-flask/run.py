@@ -1,4 +1,6 @@
-from flaskblog import app
+from flaskblog import create_app
+
+app=create_app()
 
 if __name__ == "__main__": #there are 2 types for running a file 1.by creating a variable in terminal
     # 2.by instantiating as we done here
