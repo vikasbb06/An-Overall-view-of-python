@@ -22,7 +22,7 @@ class User(db.Model,UserMixin):
         s=Serializer(current_app .config['SECRET_KEY'])
         return s.dumps({'user_id':self.id})  #inside is a payload
 
-    @staticmethod
+    @staticmethod #decorator
     def verify_secret_key(token,expires_sec=1800):
         s=Serializer(current_app.config['SECRET_KEY'])
         try:
